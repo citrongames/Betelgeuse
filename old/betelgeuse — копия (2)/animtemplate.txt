@@ -1,0 +1,19 @@
+Sprite[]AnimsTilesLow:
+	DB <()
+Sprite[]AnimsTilesHi:
+	DB >()
+Sprite[]Anim[]Tiles:
+	DB $00
+
+Sprite[]AnimsAttrLow:
+	DB <()
+Sprite[]AnimsAttrHi:
+	DB >()
+Sprite[]Anim[]Attr:
+	DB $00
+
+Sprite[]AnimsFrames:
+	DB $00
+
+Sprite[]AnimsTimes:
+	DB $00

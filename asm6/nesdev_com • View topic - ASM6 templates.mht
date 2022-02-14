@@ -1,0 +1,3052 @@
+From: =?windows-1251?B?0e718ODt5e3uIEludGVybmV0IEV4cGxvcmVyIDEx?=
+Subject: =?windows-1251?Q?nesdev.com_=95_View_topic_-_ASM6_templates?=
+Date: Sat, 1 Feb 2014 19:04:40 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CF1F80.75D32300"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://forums.nesdev.com/viewtopic.php?t=6160
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML=20
+lang=3D"en-gb" lang=3D"en-gb" dir=3D"ltr" xml:lang=3D"en-gb" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><META=20
+content=3D"IE=3D11.0000" http-equiv=3D"X-UA-Compatible">
+ <LINK href=3D"/favicon.ico" rel=3D"icon" type=3D"image/x-icon"> <LINK =
+href=3D"/favicon.ico"=20
+rel=3D"shortcut icon" type=3D"image/x-icon">=20
+<META http-equiv=3D"content-type" content=3D"text/html; =
+charset=3DUTF-8">=20
+<META http-equiv=3D"content-language" content=3D"en-gb">=20
+<META http-equiv=3D"content-style-type" content=3D"text/css">=20
+<META http-equiv=3D"imagetoolbar" content=3D"no">=20
+<META name=3D"resource-type" content=3D"document">=20
+<META name=3D"distribution" content=3D"global">=20
+<META name=3D"keywords" content=3D"">=20
+<META name=3D"description" content=3D""> <TITLE>nesdev.com =E2=80=A2 =
+View topic - ASM6=20
+templates</TITLE> <LINK title=3D"Feed - nesdev.com" =
+href=3D"http://forums.nesdev.com/feed.php"=20
+rel=3D"alternate" type=3D"application/atom+xml"><LINK title=3D"Feed - =
+News" href=3D"http://forums.nesdev.com/feed.php?mode=3Dnews"=20
+rel=3D"alternate" type=3D"application/atom+xml"><LINK title=3D"Feed - =
+All forums"=20
+href=3D"http://forums.nesdev.com/feed.php?mode=3Dforums" =
+rel=3D"alternate" type=3D"application/atom+xml"><LINK=20
+title=3D"Feed - New Topics" =
+href=3D"http://forums.nesdev.com/feed.php?mode=3Dtopics"=20
+rel=3D"alternate" type=3D"application/atom+xml"><LINK title=3D"Feed - =
+Active Topics"=20
+href=3D"http://forums.nesdev.com/feed.php?mode=3Dtopics_active" =
+rel=3D"alternate"=20
+type=3D"application/atom+xml"><LINK title=3D"Feed - Forum - Newbie Help =
+Center"=20
+href=3D"http://forums.nesdev.com/feed.php?f=3D10" rel=3D"alternate" =
+type=3D"application/atom+xml"><LINK=20
+title=3D"Feed - Topic - ASM6 templates" =
+href=3D"http://forums.nesdev.com/feed.php?f=3D10&amp;t=3D6160"=20
+rel=3D"alternate" type=3D"application/atom+xml"> <LINK =
+href=3D"http://forums.nesdev.com/style.php?id=3D1&amp;lang=3Den&amp;sid=3D=
+7a0b7b080111ce1501025c376526195c"=20
+rel=3D"stylesheet" type=3D"text/css">=20
+<SCRIPT type=3D"text/javascript">=0A=
+// <![CDATA[=0A=
+=0A=
+=0A=
+function popup(url, width, height, name)=0A=
+{=0A=
+	if (!name)=0A=
+	{=0A=
+		name =3D '_popup';=0A=
+	}=0A=
+=0A=
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=3D' + height + =
+',resizable=3Dyes,scrollbars=3Dyes,width=3D' + width);=0A=
+	return false;=0A=
+}=0A=
+=0A=
+function jumpto()=0A=
+{=0A=
+	var page =3D prompt('Enter the page number you wish to go to:', '1');=0A=
+	var per_page =3D '';=0A=
+	var base_url =3D '';=0A=
+=0A=
+	if (page !=3D=3D null && !isNaN(page) && page =3D=3D Math.floor(page) =
+&& page > 0)=0A=
+	{=0A=
+		if (base_url.indexOf('?') =3D=3D -1)=0A=
+		{=0A=
+			document.location.href =3D base_url + '?start=3D' + ((page - 1) * =
+per_page);=0A=
+		}=0A=
+		else=0A=
+		{=0A=
+			document.location.href =3D base_url.replace(/&amp;/g, '&') + =
+'&start=3D' + ((page - 1) * per_page);=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+/**=0A=
+* Find a member=0A=
+*/=0A=
+function find_username(url)=0A=
+{=0A=
+	popup(url, 760, 570, '_usersearch');=0A=
+	return false;=0A=
+}=0A=
+=0A=
+/**=0A=
+* Mark/unmark checklist=0A=
+* id =3D ID of parent container, name =3D name prefix, state =3D state =
+[true/false]=0A=
+*/=0A=
+function marklist(id, name, state)=0A=
+{=0A=
+	var parent =3D document.getElementById(id);=0A=
+	if (!parent)=0A=
+	{=0A=
+		eval('parent =3D document.' + id);=0A=
+	}=0A=
+=0A=
+	if (!parent)=0A=
+	{=0A=
+		return;=0A=
+	}=0A=
+=0A=
+	var rb =3D parent.getElementsByTagName('input');=0A=
+	=0A=
+	for (var r =3D 0; r < rb.length; r++)=0A=
+	{=0A=
+		if (rb[r].name.substr(0, name.length) =3D=3D name)=0A=
+		{=0A=
+			rb[r].checked =3D state;=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+// ]]>=0A=
+</SCRIPT>
+=20
+<META name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.16476"></HEAD>=20
+<BODY class=3D"ltr"><A name=3D"top"></A>=20
+<DIV id=3D"wrapheader">
+<DIV id=3D"logodesc"></DIV>
+<DIV id=3D"menubar">
+<TABLE width=3D"100%" cellspacing=3D"0">
+  <TBODY>
+  <TR>
+    <TD rowspan=3D"2"><A =
+href=3D"http://forums.nesdev.com/index.php?sid=3D7a0b7b080111ce1501025c37=
+6526195c"><IMG=20
+      title=3D"" alt=3D"" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/site_logo.gif"=
+></A></TD>
+    <TD width=3D"100%" align=3D"center">
+      <H1>nesdev.com</H1><SPAN class=3D"gen">NES Development and =
+Strangulation=20
+      Records message boards</SPAN></TD></TR>
+  <TR>
+    <TD align=3D"center"><A =
+href=3D"http://forums.nesdev.com/faq.php?sid=3D7a0b7b080111ce1501025c3765=
+26195c"><IMG=20
+      width=3D"12" height=3D"13" alt=3D"*" =
+src=3D"http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_f=
+aq.gif">=20
+      FAQ</A>				&nbsp; &nbsp; <A =
+href=3D"http://forums.nesdev.com/search.php?sid=3D7a0b7b080111ce1501025c3=
+76526195c"><IMG=20
+      width=3D"12" height=3D"13" alt=3D"*" =
+src=3D"http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_s=
+earch.gif">=20
+      Search</A>				 <BR>					 &nbsp;<A =
+href=3D"http://forums.nesdev.com/ucp.php?mode=3Dregister&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c"><IMG=20
+      width=3D"12" height=3D"13" alt=3D"*" =
+src=3D"http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_r=
+egister.gif">=20
+      Register</A>					&nbsp; &nbsp; <A =
+href=3D"http://forums.nesdev.com/ucp.php?mode=3Dlogin&amp;sid=3D7a0b7b080=
+111ce1501025c376526195c"><IMG=20
+      width=3D"12" height=3D"13" alt=3D"*" =
+src=3D"http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_l=
+ogin.gif">=20
+      Login</A>&nbsp;			</TD></TR></TBODY></TABLE></DIV>
+<DIV id=3D"datebar">
+<TABLE width=3D"100%" cellspacing=3D"0">
+  <TBODY>
+  <TR>
+    <TD class=3D"gensmall"></TD>
+    <TD align=3D"right" class=3D"gensmall">It is currently Sat Feb 01, =
+2014 5:10=20
+      am<BR></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV id=3D"wrapcentre">
+<P class=3D"searchbar"><SPAN style=3D"float: left;"><A =
+href=3D"http://forums.nesdev.com/search.php?search_id=3Dunanswered&amp;si=
+d=3D7a0b7b080111ce1501025c376526195c">View=20
+unanswered posts</A> | <A =
+href=3D"http://forums.nesdev.com/search.php?search_id=3Dactive_topics&amp=
+;sid=3D7a0b7b080111ce1501025c376526195c">View=20
+active topics</A></SPAN>			 </P><BR style=3D"clear: both;">
+<TABLE width=3D"100%" class=3D"tablebg" style=3D"margin-top: 5px;" =
+cellspacing=3D"1"=20
+cellpadding=3D"0">
+  <TBODY>
+  <TR>
+    <TD class=3D"row1">
+      <P class=3D"breadcrumbs"><A =
+href=3D"http://forums.nesdev.com/index.php?sid=3D7a0b7b080111ce1501025c37=
+6526195c">Board=20
+      index</A> =C2=BB <A =
+href=3D"http://forums.nesdev.com/viewforum.php?f=3D24&amp;sid=3D7a0b7b080=
+111ce1501025c376526195c">NES=20
+      / Famicom</A> =C2=BB <A =
+href=3D"http://forums.nesdev.com/viewforum.php?f=3D10&amp;sid=3D7a0b7b080=
+111ce1501025c376526195c">Newbie=20
+      Help Center</A></P>
+      <P class=3D"datetime">All times are UTC - 7 hours=20
+</P></TD></TR></TBODY></TABLE><BR>
+<DIV id=3D"pageheader">
+<H2><A class=3D"titles" =
+href=3D"http://forums.nesdev.com/viewtopic.php?f=3D10&amp;t=3D6160&amp;si=
+d=3D7a0b7b080111ce1501025c376526195c">ASM6=20
+templates</A></H2>
+<P class=3D"moderators">Moderator: <A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dgroup&amp;g=3D320&=
+amp;sid=3D7a0b7b080111ce1501025c376526195c">Moderators</A></P></DIV><BR=20
+clear=3D"all"><BR>
+<DIV id=3D"pagecontent">
+<TABLE width=3D"100%" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TD align=3D"left" nowrap=3D"nowrap" valign=3D"middle"><A =
+href=3D"http://forums.nesdev.com/posting.php?mode=3Dpost&amp;f=3D10&amp;s=
+id=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Post new topic" alt=3D"Post new topic" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_new.gif"></A>&nbsp;<A=20
+      =
+href=3D"http://forums.nesdev.com/posting.php?mode=3Dreply&amp;f=3D10&amp;=
+t=3D6160&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Reply to topic" alt=3D"Reply to topic" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_reply.gif"></A>
+      		 </TD>
+    <TD class=3D"nav" nowrap=3D"nowrap" valign=3D"middle">&nbsp;Page=20
+      <STRONG>1</STRONG> of <STRONG>1</STRONG><BR></TD>
+    <TD class=3D"gensmall" nowrap=3D"nowrap">&nbsp;[ 13 posts =
+]&nbsp;</TD>
+    <TD width=3D"100%" align=3D"right" class=3D"gensmall"=20
+  nowrap=3D"nowrap"></TD></TR></TBODY></TABLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TD class=3D"cat">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD class=3D"nav" nowrap=3D"nowrap">&nbsp;				<A =
+title=3D"Print view"=20
+            =
+href=3D"http://forums.nesdev.com/viewtopic.php?f=3D10&amp;t=3D6160&amp;si=
+d=3D7a0b7b080111ce1501025c376526195c&amp;view=3Dprint">Print=20
+            view</A>				 </TD>
+          <TD align=3D"right" class=3D"nav" nowrap=3D"nowrap"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?f=3D10&amp;t=3D6160&amp;vi=
+ew=3Dprevious&amp;sid=3D7a0b7b080111ce1501025c376526195c">Previous=20
+            topic</A> | <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?f=3D10&amp;t=3D6160&amp;vi=
+ew=3Dnext&amp;sid=3D7a0b7b080111ce1501025c376526195c">Next=20
+            =
+topic</A>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TH>Author</TH>
+    <TH>Message</TH></TR>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58138"></A>				 =
+<B class=3D"postauthor">tokumaru</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58138">ASM6=20
+            templates</A></DIV>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58138&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58138"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 12:02 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"80" height=3D"80" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D95.png"></TD><=
+/TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sat Feb 12, 2005 9:43=20
+      pm<BR><B>Posts:</B> 6370<BR><B>Location:</B> Rio de Janeiro - =
+Brazil
+      				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">Many people start out using NESASM, =
+probably=20
+            because of the tutorials that use it. And sometimes we =
+suggest they=20
+            use a better assembler, ASM6 being a good candidate because =
+it's=20
+            very simple to use. So I decided to put together these basic =
+NROM=20
+            and UNROM templates, so that there is no excuse for people =
+not to=20
+            try it. <BR><BR>Note that all of these shuld be assembld in =
+the=20
+            simplest possible way: <STRONG>asm6 game.asm =
+game.nes</STRONG>=20
+            <BR><BR><STRONG>UPDATE:</STRONG> Included a CNROM template.=20
+            <BR><BR>NROM template: <BR><BR>
+            <DIV class=3D"codetitle"><B>Code:</B></DIV>
+            <DIV=20
+            =
+class=3D"codecontent">;--------------------------------------------------=
+--------------<BR>;=20
+            =
+constants<BR>;-----------------------------------------------------------=
+-----<BR><BR>PRG_COUNT=20
+            =3D 1 ;1 =3D 16KB, 2 =3D 32KB<BR>MIRRORING =3D %0001 ;%0000 =
+=3D horizontal,=20
+            %0001 =3D vertical, %1000 =3D=20
+            =
+four-screen<BR><BR>;-----------------------------------------------------=
+-----------<BR>;=20
+            =
+variables<BR>;-----------------------------------------------------------=
+-----<BR><BR>&nbsp;=20
+            &nbsp;.enum $0000<BR><BR>&nbsp; &nbsp;;NOTE: declare =
+variables using=20
+            the DSB and DSW directives, like this:<BR><BR>&nbsp;=20
+            &nbsp;;MyVariable0 .dsb 1<BR>&nbsp; &nbsp;;MyVariable1 .dsb=20
+            3<BR><BR>&nbsp; &nbsp;.ende<BR><BR>&nbsp; &nbsp;;NOTE: you =
+can also=20
+            split the variable declarations into individual pages, like=20
+            this:<BR><BR>&nbsp; &nbsp;;.enum $0100<BR>&nbsp;=20
+            &nbsp;;.ende<BR><BR>&nbsp; &nbsp;;.enum $0200<BR>&nbsp;=20
+            =
+&nbsp;;.ende<BR><BR>;----------------------------------------------------=
+------------<BR>;=20
+            iNES=20
+            =
+header<BR>;--------------------------------------------------------------=
+--<BR><BR>&nbsp;=20
+            &nbsp;.db "NES", $1a ;identification of the iNES =
+header<BR>&nbsp;=20
+            &nbsp;.db PRG_COUNT ;number of 16KB PRG-ROM pages<BR>&nbsp;=20
+            &nbsp;.db $01 ;number of 8KB CHR-ROM pages<BR>&nbsp; =
+&nbsp;.db=20
+            $00|MIRRORING ;mapper 0 and mirroring<BR>&nbsp; &nbsp;.dsb =
+9, $00=20
+            ;clear the remaining=20
+            =
+bytes<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program=20
+            =
+bank(s)<BR>;-------------------------------------------------------------=
+---<BR><BR>&nbsp;=20
+            &nbsp;.base =
+$10000-(PRG_COUNT*$4000)<BR><BR>Reset:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: initialization code goes =
+here<BR><BR>NMI:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: NMI code goes here<BR><BR>IRQ:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: IRQ code goes=20
+            =
+here<BR><BR>;------------------------------------------------------------=
+----<BR>;=20
+            interrupt=20
+            =
+vectors<BR>;-------------------------------------------------------------=
+---<BR><BR>&nbsp;=20
+            &nbsp;.org $fffa<BR><BR>&nbsp; &nbsp;.dw NMI<BR>&nbsp; =
+&nbsp;.dw=20
+            Reset<BR>&nbsp; &nbsp;.dw=20
+            =
+IRQ<BR><BR>;-------------------------------------------------------------=
+---<BR>;=20
+            CHR-ROM=20
+            =
+bank<BR>;----------------------------------------------------------------=
+<BR><BR>&nbsp;=20
+            &nbsp;.incbin "tiles.chr"</DIV><BR><BR>UNROM =
+template:<BR><BR>
+            <DIV class=3D"codetitle"><B>Code:</B></DIV>
+            <DIV=20
+            =
+class=3D"codecontent">;--------------------------------------------------=
+--------------<BR>;=20
+            =
+constants<BR>;-----------------------------------------------------------=
+-----<BR><BR>MIRRORING=20
+            =3D %0001 ;%0000 =3D horizontal, %0001 =3D vertical, %1000 =
+=3D=20
+            =
+four-screen<BR><BR>;-----------------------------------------------------=
+-----------<BR>;=20
+            =
+variables<BR>;-----------------------------------------------------------=
+-----<BR><BR>&nbsp;=20
+            &nbsp;.enum $0000<BR><BR>&nbsp; &nbsp;;NOTE: declare =
+variables using=20
+            the DSB and DSW directives, like this:<BR><BR>&nbsp;=20
+            &nbsp;;MyVariable0 .dsb 1<BR>&nbsp; &nbsp;;MyVariable1 .dsb=20
+            3<BR><BR>&nbsp; &nbsp;.ende<BR><BR>&nbsp; &nbsp;;NOTE: you =
+can also=20
+            split the variable declarations into individual pages, like=20
+            this:<BR><BR>&nbsp; &nbsp;;.enum $0100<BR>&nbsp;=20
+            &nbsp;;.ende<BR><BR>&nbsp; &nbsp;;.enum $0200<BR>&nbsp;=20
+            =
+&nbsp;;.ende<BR><BR>;----------------------------------------------------=
+------------<BR>;=20
+            iNES=20
+            =
+header<BR>;--------------------------------------------------------------=
+--<BR><BR>&nbsp;=20
+            &nbsp;.db "NES", $1a ;identification of the iNES =
+header<BR>&nbsp;=20
+            &nbsp;.db $08 ;number of 16KB PRG-ROM pages<BR>&nbsp; =
+&nbsp;.db $00=20
+            ;number of 8KB CHR-ROM pages<BR>&nbsp; &nbsp;.db =
+$20|MIRRORING=20
+            ;mapper 2 and mirroring<BR>&nbsp; &nbsp;.dsb 9, $00 ;clear =
+the=20
+            remaining=20
+            =
+bytes<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+0<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 0 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+1<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 1 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+2<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 2 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+3<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 3 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+4<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 4 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+5<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 5 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program bank=20
+            =
+6<BR>;----------------------------------------------------------------<BR=
+><BR>&nbsp;=20
+            &nbsp;.base $8000<BR><BR>&nbsp; &nbsp;;NOTE: contents of =
+program=20
+            bank 6 go here<BR><BR>&nbsp; &nbsp;.org=20
+            =
+$c000<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            fixed program bank=20
+            =
+(7)<BR>;----------------------------------------------------------------<=
+BR><BR>&nbsp;=20
+            &nbsp;.base $c000<BR><BR>Reset:<BR><BR>&nbsp; &nbsp;;NOTE:=20
+            initialization code goes here<BR><BR>NMI:<BR><BR>&nbsp; =
+&nbsp;;NOTE:=20
+            NMI code goes here<BR><BR>IRQ:<BR><BR>&nbsp; &nbsp;;NOTE: =
+IRQ code=20
+            goes=20
+            =
+here<BR><BR>;------------------------------------------------------------=
+----<BR>;=20
+            interrupt=20
+            =
+vectors<BR>;-------------------------------------------------------------=
+---<BR><BR>&nbsp;=20
+            &nbsp;.org $fffa<BR><BR>&nbsp; &nbsp;.dw NMI<BR>&nbsp; =
+&nbsp;.dw=20
+            Reset<BR>&nbsp; &nbsp;.dw IRQ</DIV><BR><BR>CNROM =
+Template:<BR><BR>
+            <DIV class=3D"codetitle"><B>Code:</B></DIV>
+            <DIV=20
+            =
+class=3D"codecontent">;--------------------------------------------------=
+--------------<BR>;=20
+            =
+constants<BR>;-----------------------------------------------------------=
+-----<BR><BR>PRG_COUNT=20
+            =3D 2 ;1 =3D 16KB, 2 =3D 32KB<BR>CHR_COUNT =3D 4 ;1 =3D 8KB, =
+2 =3D 16KB, 4 =3D=20
+            32KB<BR>MIRRORING =3D %0001 ;%0000 =3D horizontal, %0001 =3D =
+vertical,=20
+            %1000 =3D=20
+            =
+four-screen<BR><BR>;-----------------------------------------------------=
+-----------<BR>;=20
+            =
+variables<BR>;-----------------------------------------------------------=
+-----<BR><BR>&nbsp;=20
+            &nbsp;.enum $0000<BR><BR>&nbsp; &nbsp;;NOTE: declare =
+variables using=20
+            the DSB and DSW directives, like this:<BR><BR>&nbsp;=20
+            &nbsp;;MyVariable0 .dsb 1<BR>&nbsp; &nbsp;;MyVariable1 .dsb=20
+            3<BR><BR>&nbsp; &nbsp;.ende<BR><BR>&nbsp; &nbsp;;NOTE: you =
+can also=20
+            split the variable declarations into individual pages, like=20
+            this:<BR><BR>&nbsp; &nbsp;;.enum $0100<BR>&nbsp;=20
+            &nbsp;;.ende<BR><BR>&nbsp; &nbsp;;.enum $0200<BR>&nbsp;=20
+            =
+&nbsp;;.ende<BR><BR>;----------------------------------------------------=
+------------<BR>;=20
+            iNES=20
+            =
+header<BR>;--------------------------------------------------------------=
+--<BR><BR>&nbsp;=20
+            &nbsp;.db "NES", $1a ;identification of the iNES =
+header<BR>&nbsp;=20
+            &nbsp;.db PRG_COUNT ;number of 16KB PRG-ROM pages<BR>&nbsp;=20
+            &nbsp;.db CHR_COUNT ;number of 8KB CHR-ROM pages<BR>&nbsp; =
+&nbsp;.db=20
+            $30|MIRRORING ;mapper 3 and mirroring<BR>&nbsp; &nbsp;.dsb =
+9, $00=20
+            ;clear the remaining=20
+            =
+bytes<BR><BR>;-----------------------------------------------------------=
+-----<BR>;=20
+            program=20
+            =
+bank(s)<BR>;-------------------------------------------------------------=
+---<BR><BR>&nbsp;=20
+            &nbsp;.base =
+$10000-(PRG_COUNT*$4000)<BR><BR>Reset:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: initialization code goes =
+here<BR><BR>NMI:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: NMI code goes here<BR><BR>IRQ:<BR><BR>&nbsp;=20
+            &nbsp;;NOTE: IRQ code goes=20
+            =
+here<BR><BR>;------------------------------------------------------------=
+----<BR>;=20
+            interrupt=20
+            =
+vectors<BR>;-------------------------------------------------------------=
+---<BR><BR>&nbsp;=20
+            &nbsp;.org $fffa<BR><BR>&nbsp; &nbsp;.dw NMI<BR>&nbsp; =
+&nbsp;.dw=20
+            Reset<BR>&nbsp; &nbsp;.dw=20
+            =
+IRQ<BR><BR>;-------------------------------------------------------------=
+---<BR>;=20
+            CHR-ROM=20
+            =
+banks<BR>;---------------------------------------------------------------=
+-<BR><BR>&nbsp;=20
+            &nbsp;.incbin "tiles0.chr"<BR>&nbsp; &nbsp;.incbin=20
+            "tiles1.chr"<BR>&nbsp; &nbsp;.incbin "tiles2.chr"<BR>&nbsp;=20
+            &nbsp;.incbin "tiles3.chr"</DIV></DIV><BR><BR><SPAN=20
+            class=3D"gensmall">Last edited by <A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+95&amp;sid=3D7a0b7b080111ce1501025c376526195c">tokumaru</A>=20
+            on Tue May 25, 2010 9:43 am, edited 1 time in total.</SPAN>
+            						 <BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+95&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58171"></A>				 =
+<B class=3D"postauthor">Banshaku</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58171"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58171&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58171"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 6:28 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"100" height=3D"64" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D3559.png"></TD=
+></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Tue Jun 24, 2008 8:38=20
+      pm<BR><B>Posts:</B> 1336<BR><B>Location:</B> Fukuoka, Japan				 =
+</SPAN>
+    			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">I have a question regarding ASM6.  =
+For the=20
+            sake of the sample, all the banks were defined in a single =
+file but=20
+            is it possible to define them in a different one and include =
+them? I=20
+            guess you can, just don't know yet about this =
+assembler.</DIV><BR=20
+            clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3559&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58173"></A>				 =
+<B class=3D"postauthor">tokumaru</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58173"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58173&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58173"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 6:51 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"80" height=3D"80" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D95.png"></TD><=
+/TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sat Feb 12, 2005 9:43=20
+      pm<BR><B>Posts:</B> 6370<BR><B>Location:</B> Rio de Janeiro - =
+Brazil
+      				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">
+            <DIV class=3D"quotetitle">Banshaku wrote:</DIV>
+            <DIV class=3D"quotecontent">For the sake of the sample, all =
+the banks=20
+            were defined in a single file but is it possible to define =
+them in a=20
+            different one and include them? I guess you can, just don't =
+know yet=20
+            about this assembler.</DIV><BR>Yes, you can put whatever you =
+want in=20
+            separate files and include them, it's the same as if it was =
+all part=20
+            of a single file. <BR><BR>I keep everything separate myself, =
+and=20
+            nest several levels of includes (master file includes bank =
+files=20
+            which include functions which include tables, stuff like =
+that), but=20
+            I made the examples as single files for the sake of =
+simplicity, as=20
+            most people start out with single files.</DIV><BR =
+clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+95&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58180"></A>				 =
+<B class=3D"postauthor">GradualGames</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58180"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58180&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58180"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 8:36 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"100" height=3D"94" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D3735.jpg"></TD=
+></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sun Nov 09, 2008 9:18=20
+      pm<BR><B>Posts:</B> 480				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">When I tried to break my program =
+into multiple=20
+            files when it was still written for ASM6, I had trouble with =
+
+            dependencies between modules. Is there a way to "forward =
+declare" a=20
+            label before it is actually defined and used? CA65 resolved =
+this=20
+            issue for me quite nicely with the ability to export and =
+import=20
+            symbols, in conjunction with the LD65 linker. I also like =
+the fact=20
+            that CA65 abstracts out all of the .base, and .pad =
+directives one=20
+            normally needs to do in an assembler such as ASM6. You can =
+describe=20
+            all of that in one concise config file, and then all your =
+source=20
+            files do is name segments that you mapped out in your config =
+file.=20
+            <BR><BR>BTW, I think perhaps these templates ought to be =
+stickied or=20
+            wikied, or both. And perhaps a CA65 developer could upload a =
+
+            template for a simple NROM or UNROM project, including a =
+config=20
+            file, source file and makefile (not that makefiles are =
+absolutely=20
+            necessary, but it appears to be a common way CA65 users =
+build their=20
+            projects). <BR><BR>*edit* I actually still use ASM6. When =
+I'm=20
+            testing some feature I don't understand how to use yet, I =
+don't=20
+            really want to bother with multiple files. As far as I know, =
+CA65=20
+            doesn't have the equivalent of .org, .base or .pad within a =
+source=20
+            file, you can only do these things within the config file =
+with=20
+            memory areas, segments, and the attribute "fill =3D yes or=20
+            no."</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3735&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58184"></A>				 =
+<B class=3D"postauthor"=20
+      style=3D"color: rgb(170, 0, 0);">koitsu</B>			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58184"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58184&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58184"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 9:51 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD class=3D"postdetails">Site Admin</TD></TR>
+        <TR>
+          <TD><IMG width=3D"100" height=3D"75" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D3.png"></TD></=
+TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sun Sep 19, 2004 9:28=20
+      pm<BR><B>Posts:</B> 1640<BR><B>Location:</B> Mountain View, CA, =
+USA
+      				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">
+            <DIV class=3D"quotetitle">Gradualore wrote:</DIV>
+            <DIV class=3D"quotecontent">Is there a way to "forward =
+declare" a=20
+            label before it is actually defined and =
+used?</DIV><BR><BR>Comment=20
+            in passing: the commonly-used term in programming for this =
+is <A=20
+            class=3D"postlink" =
+href=3D"http://en.wikipedia.org/wiki/Function_prototype">"prototyping"</A=
+>.=20
+             The Wikipedia article describes functions, but variable =
+prototypes=20
+            work the same way. <BR><BR>Most assemblers I've used over =
+the years=20
+            are multi-pass, which during their initial pass take note of =
+all=20
+            (global) labels and equates.</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p58187"></A>				 =
+<B class=3D"postauthor">loopy</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p58187"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D58187&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p58187"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Sat Mar 13, 2010 10:26 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"100" height=3D"100" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D4.jpg"></TD></=
+TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sun Sep 19, 2004 10:52=20
+      pm<BR><B>Posts:</B> 246<BR><B>Location:</B> UT				 </SPAN>			 =
+</TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">It isn't necessary to declare a =
+label before=20
+            using it.  ASM6 is a multi-pass assembler.  It'll take as =
+many=20
+            passes as it needs to resolve unknown symbols.</DIV><BR=20
+            clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+4&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p59853"></A>				 =
+<B class=3D"postauthor">yassergsNESDEV</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p59853"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D59853&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p59853"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Fri Apr 09, 2010 8:32 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Fri Apr 09, 2010 7:06=20
+      am<BR><B>Posts:</B> 3				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">Ok, I got NESASM but  I have not any =
+
+            tutorials. Where I can find some.. from the beginning to =
+advanced=20
+            mode</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+4335&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p59855"></A>				 =
+<B class=3D"postauthor">jbuonacc</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p59855"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D59855&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p59855"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Fri Apr 09, 2010 8:38 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Mon Mar 29, 2010 9:25=20
+      am<BR><B>Posts:</B> 14<BR><B>Location:</B> Rochester, NY				 =
+</SPAN>
+			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">
+            <DIV class=3D"quotetitle">yassergsNESDEV wrote:</DIV>
+            <DIV class=3D"quotecontent">Ok, I got NESASM but  I have not =
+any=20
+            tutorials. Where I can find some.. from the beginning to =
+advanced=20
+            mode</DIV><BR><BR><!-- m --><A class=3D"postlink" =
+href=3D"http://nintendoage.com/forum/messageview.cfm?catid=3D22&amp;threa=
+did=3D7155">http://nintendoage.com/forum/messageview.cfm?catid=3D22&amp;t=
+hreadid=3D7155</A><!-- m -->=20
+            <BR><BR>doesn't get too advanced, but the basics are covered =
+pretty=20
+            well.</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+4315&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p61862"></A>				 =
+<B class=3D"postauthor">tokumaru</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p61862"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D61862&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p61862"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Tue May 25, 2010 9:45 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"80" height=3D"80" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/download/file.php?avatar=3D95.png"></TD><=
+/TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sat Feb 12, 2005 9:43=20
+      pm<BR><B>Posts:</B> 6370<BR><B>Location:</B> Rio de Janeiro - =
+Brazil
+      				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">Added a CNROM template.</DIV><BR=20
+            clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+95&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p78900"></A>				 =
+<B class=3D"postauthor">unregistered</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p78900"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D78900&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p78900"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Mon May 30, 2011 8:15 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"97" height=3D"27" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_new.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Thu Apr 23, 2009 11:21=20
+      pm<BR><B>Posts:</B> 626<BR><B>Location:</B> cypress, texas				 =
+</SPAN>
+    			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">tokumaru, so far I have a main file, =
+a prg=20
+            file, a chr file, and a vblank file.  Where should I place=20
+            famitone.asm?  In what address space can I put a bunch of =
+<SPAN=20
+            style=3D"color: yellow;">.incsrc</SPAN>s?  You seem to be =
+the best=20
+            person to ask; you understand how rom files should be put =
+together.=20
+            <IMG title=3D"Smile" alt=3D":)" =
+src=3D"http://forums.nesdev.com/images/smilies/icon_smile.gif"></DIV><BR =
+
+            clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3893&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p78902"></A>				 =
+<B class=3D"postauthor">UncleSporky</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p78902"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D78902&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p78902"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Mon May 30, 2011 10:51 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sat Nov 17, 2007 8:44=20
+      pm<BR><B>Posts:</B> 385				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">You can insert extra code anywhere =
+before you=20
+            .pad $FFFA and set up the interrupts.  Most of the time you =
+only=20
+            have chr data after that point. <BR><BR>Here's how my simple =
+project=20
+            is set up: <BR><BR>I have a batch file, make.bat, that runs =
+asm6 and=20
+            compiles my project.  This is all it contains: <BR><BR>
+            <DIV class=3D"codetitle"><B>Code:</B></DIV>
+            <DIV class=3D"codecontent">asm6 header.asm demo.nes=20
+            demo.txt</DIV><BR><BR>Then header.asm contains the rest of =
+the=20
+            project info:<BR><BR>
+            <DIV class=3D"codetitle"><B>Code:</B></DIV>
+            <DIV class=3D"codecontent">;iNES header<BR><BR>.db "NES",$1a =
+&nbsp;=20
+            &nbsp;&nbsp; &nbsp;;iNES identifier<BR><BR>.db $01&nbsp;=20
+            &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;;number of PRG-ROM =
+blocks<BR><BR>.db=20
+            $01&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;;number of CHR-ROM =
+
+            blocks<BR><BR>.db $00, $00&nbsp; &nbsp;&nbsp; &nbsp;;ROM =
+control=20
+            bytes: Horizontal mirroring, no SRAM or trainer, Mapper=20
+            #0<BR><BR>.db $00,$00,$00,$00,$00,$00,$00,$00&nbsp;=20
+            &nbsp;;filler<BR><BR>;PRG-ROM<BR><BR>.include =
+"main.asm"<BR>.include=20
+            "famitone.asm"&nbsp; &nbsp;;FamiTone audio driver by=20
+            Shiru<BR>.include "music.asm"&nbsp; &nbsp;;sample music=20
+            data<BR><BR>.pad $FFFA&nbsp; &nbsp;&nbsp; &nbsp;;fill any =
+remaining=20
+            space with zeroes<BR>.dw vblank,reset,irq&nbsp; &nbsp;;set =
+interrupt=20
+            addresses (defined in =
+main.asm)<BR><BR>;CHR-ROM<BR><BR>.incbin=20
+            "main.chr"</DIV><BR><BR>My whole program is inside main.asm, =
+and=20
+            then I simply inserted famitone and sample music after that. =
+ This=20
+            is also the place to include data tables, screen data, =
+anything else=20
+            that isn't code but also isn't graphics. <BR><BR>If you set =
+it up=20
+            the way I have it above, make sure that your main, prg and =
+vblank=20
+            files don't have the .pad $FFFA and .dw vblank,reset,irq =
+anywhere in=20
+            them.  In my project I moved it up to this broader level to =
+make=20
+            sure it comes after everything else. <BR><BR>Also make sure =
+you=20
+            aren't duplicating that iNES header info anywhere else=20
+            either.</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3438&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row2">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p78903"></A>				 =
+<B class=3D"postauthor">unregistered</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p78903"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D78903&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p78903"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Mon May 30, 2011 11:17 =
+am&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR>
+        <TR>
+          <TD><IMG width=3D"97" height=3D"27" alt=3D"User avatar" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_new.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Thu Apr 23, 2009 11:21=20
+      pm<BR><B>Posts:</B> 626<BR><B>Location:</B> cypress, texas				 =
+</SPAN>
+    			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">Thank you UncleSporky <IMG =
+title=3D"Very Happy"=20
+            alt=3D":D" =
+src=3D"http://forums.nesdev.com/images/smilies/icon_biggrin.gif">=20
+             that's very helpfull to me! <BR><BR><BR>
+            <DIV class=3D"quotetitle">UncleSporky wrote:</DIV>
+            <DIV class=3D"quotecontent">If you set it up the way I have =
+it above,=20
+            make sure that your main, prg and vblank files don't have =
+the .pad=20
+            $FFFA and .dw vblank,reset,irq anywhere in them.  In my =
+project I=20
+            moved it up to this broader level to make sure it comes =
+after=20
+            everything else.</DIV><BR>There is chr after it... in mine =
+too. =20
+            Does the chr not matter because it's in the PPU's memory?  =
+(and it's=20
+            not in the CPU's memory? <IMG title=3D"Confused" alt=3D":?" =
+src=3D"http://forums.nesdev.com/images/smilies/icon_confused.gif">)</DIV>=
+<BR=20
+            clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row2">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3893&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR class=3D"row1">
+    <TD align=3D"center" valign=3D"middle"><A name=3D"p78921"></A>				 =
+<B class=3D"postauthor">UncleSporky</B>
+      			 </TD>
+    <TD width=3D"100%" height=3D"25">
+      <TABLE width=3D"100%" cellspacing=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D"100%" class=3D"gensmall">
+            <DIV style=3D"float: left;">&nbsp;<B>Post subject:</B> <A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#p78921"></A></DIV=
+>
+            <DIV style=3D"float: right;"><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?p=3D78921&amp;sid=3D7a0b7b=
+080111ce1501025c376526195c#p78921"><IMG=20
+            width=3D"12" height=3D"9" title=3D"Post" alt=3D"Post" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_targ=
+et.gif"></A><B>Posted:</B>=20
+            Mon May 30, 2011 4:35 =
+pm&nbsp;</DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile" valign=3D"top">
+      <TABLE width=3D"150" align=3D"center" cellspacing=3D"4">
+        <TBODY>
+        <TR>
+          <TD><IMG title=3D"Offline" alt=3D"Offline" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_o=
+ffline.gif"></TD></TR></TBODY></TABLE><SPAN=20
+      class=3D"postdetails"><BR><B>Joined:</B> Sat Nov 17, 2007 8:44=20
+      pm<BR><B>Posts:</B> 385				 </SPAN>			 </TD>
+    <TD valign=3D"top">
+      <TABLE width=3D"100%" cellspacing=3D"5">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV class=3D"postbody">Oh, when I said "after everything =
+else" I=20
+            meant except for chr. <IMG title=3D"Smile" alt=3D":)" =
+src=3D"http://forums.nesdev.com/images/smilies/icon_smile.gif">=20
+            <BR><BR>chr always goes right after the interrupt addresses. =
+ It's=20
+            good to learn why at some point, but for now it might be =
+easiest=20
+            just to remember it that way.  iNES header -&gt; define =
+variables=20
+            -&gt; code -&gt; data tables -&gt; interrupt addresses -&gt; =
+chr=20
+            data. <BR><BR>You don't have chr data if your game uses CHR =
+RAM, but=20
+            you're not dealing with that yet. <BR><BR>Basically, the =
+interrupt=20
+            addresses always start at $FFFA and end at $FFFF.  The next =
+step up=20
+            would be $10000, but you have no way to refer to this =
+location=20
+            directly because it's more than two bytes long.  Instead, =
+the NES=20
+            just assumes that's where the graphics are located and you =
+have to=20
+            refer to them through other methods (using PPU IDs and=20
+            registers).</DIV><BR clear=3D"all"><BR>
+            <TABLE width=3D"100%" cellspacing=3D"0">
+              <TBODY>
+              <TR valign=3D"middle">
+                <TD align=3D"right"=20
+        =
+class=3D"gensmall"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></=
+TD></TR>
+  <TR class=3D"row1">
+    <TD class=3D"profile"><STRONG><A =
+href=3D"http://forums.nesdev.com/viewtopic.php?t=3D6160#wrapheader">Top</=
+A></STRONG></TD>
+    <TD>
+      <DIV class=3D"gensmall" style=3D"float: left;">&nbsp;<A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+3438&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Profile" alt=3D"Profile" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_p=
+rofile.gif"></A>=20
+      &nbsp;</DIV>
+      <DIV class=3D"gensmall" style=3D"float: =
+right;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD height=3D"1" class=3D"spacer" colspan=3D"2"><IMG width=3D"1" =
+height=3D"1" alt=3D""=20
+      =
+src=3D"http://forums.nesdev.com/images/spacer.gif"></TD></TR></TBODY></TA=
+BLE>
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR align=3D"center">
+    <TD class=3D"cat">
+      <FORM name=3D"viewtopic" =
+action=3D"./viewtopic.php?f=3D10&amp;t=3D6160&amp;sid=3D7a0b7b080111ce150=
+1025c376526195c"=20
+      method=3D"post"><SPAN class=3D"gensmall">Display posts from =
+previous:</SPAN>=20
+      <SELECT name=3D"st" id=3D"st"><OPTION selected=3D"selected" =
+value=3D"0">All=20
+        posts</OPTION><OPTION value=3D"1">1 day</OPTION><OPTION =
+value=3D"7">7=20
+        days</OPTION><OPTION value=3D"14">2 weeks</OPTION><OPTION =
+value=3D"30">1=20
+        month</OPTION><OPTION value=3D"90">3 months</OPTION><OPTION =
+value=3D"180">6=20
+        months</OPTION><OPTION value=3D"365">1 =
+year</OPTION></SELECT>&nbsp;<SPAN=20
+      class=3D"gensmall">Sort by</SPAN> <SELECT name=3D"sk" =
+id=3D"sk"><OPTION value=3D"a">Author</OPTION><OPTION=20
+        selected=3D"selected" value=3D"t">Post time</OPTION><OPTION=20
+        value=3D"s">Subject</OPTION></SELECT> <SELECT name=3D"sd" =
+id=3D"sd"><OPTION=20
+        selected=3D"selected" value=3D"a">Ascending</OPTION><OPTION=20
+        value=3D"d">Descending</OPTION></SELECT>&nbsp;<INPUT =
+name=3D"sort" class=3D"btnlite" type=3D"submit" =
+value=3D"Go"></FORM></TD></TR></TBODY></TABLE>
+<TABLE width=3D"100%" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TD align=3D"left" nowrap=3D"nowrap" valign=3D"middle"><A =
+href=3D"http://forums.nesdev.com/posting.php?mode=3Dpost&amp;f=3D10&amp;s=
+id=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Post new topic" alt=3D"Post new topic" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_new.gif"></A>&nbsp;<A=20
+      =
+href=3D"http://forums.nesdev.com/posting.php?mode=3Dreply&amp;f=3D10&amp;=
+t=3D6160&amp;sid=3D7a0b7b080111ce1501025c376526195c"><IMG=20
+      title=3D"Reply to topic" alt=3D"Reply to topic" =
+src=3D"http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topi=
+c_reply.gif"></A>
+      		 </TD>
+    <TD class=3D"nav" nowrap=3D"nowrap" valign=3D"middle">&nbsp;Page=20
+      <STRONG>1</STRONG> of <STRONG>1</STRONG><BR></TD>
+    <TD class=3D"gensmall" nowrap=3D"nowrap">&nbsp;[ 13 posts =
+]&nbsp;</TD>
+    <TD width=3D"100%" align=3D"right" class=3D"gensmall"=20
+  nowrap=3D"nowrap"></TD></TR></TBODY></TABLE></DIV>
+<DIV id=3D"pagefooter"></DIV><BR clear=3D"all">
+<TABLE width=3D"100%" class=3D"tablebg" style=3D"margin-top: 5px;" =
+cellspacing=3D"1"=20
+cellpadding=3D"0">
+  <TBODY>
+  <TR>
+    <TD class=3D"row1">
+      <P class=3D"breadcrumbs"><A =
+href=3D"http://forums.nesdev.com/index.php?sid=3D7a0b7b080111ce1501025c37=
+6526195c">Board=20
+      index</A> =C2=BB <A =
+href=3D"http://forums.nesdev.com/viewforum.php?f=3D24&amp;sid=3D7a0b7b080=
+111ce1501025c376526195c">NES=20
+      / Famicom</A> =C2=BB <A =
+href=3D"http://forums.nesdev.com/viewforum.php?f=3D10&amp;sid=3D7a0b7b080=
+111ce1501025c376526195c">Newbie=20
+      Help Center</A></P>
+      <P class=3D"datetime">All times are UTC - 7 hours=20
+</P></TD></TR></TBODY></TABLE><BR clear=3D"all">
+<TABLE width=3D"100%" class=3D"tablebg" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TD class=3D"cat">
+      <H4>Who is online</H4></TD></TR>
+  <TR>
+    <TD class=3D"row1">
+      <P class=3D"gensmall">Users browsing this forum: <A =
+href=3D"http://forums.nesdev.com/memberlist.php?mode=3Dviewprofile&amp;u=3D=
+6362&amp;sid=3D7a0b7b080111ce1501025c376526195c">za909</A>=20
+      and 1 guest</P></TD></TR></TBODY></TABLE><BR clear=3D"all">
+<TABLE width=3D"100%" cellspacing=3D"1">
+  <TBODY>
+  <TR>
+    <TD width=3D"40%" align=3D"left" nowrap=3D"nowrap" =
+valign=3D"top"></TD>
+    <TD align=3D"right" nowrap=3D"nowrap" valign=3D"top"><SPAN =
+class=3D"gensmall">You=20
+      <STRONG>cannot</STRONG> post new topics in this forum<BR>You=20
+      <STRONG>cannot</STRONG> reply to topics in this forum<BR>You=20
+      <STRONG>cannot</STRONG> edit your posts in this forum<BR>You=20
+      <STRONG>cannot</STRONG> delete your posts in this forum<BR>You=20
+      <STRONG>cannot</STRONG> post attachments in this=20
+  forum<BR></SPAN></TD></TR></TBODY></TABLE><BR clear=3D"all">
+<TABLE width=3D"100%" cellspacing=3D"0">
+  <TBODY>
+  <TR>
+    <TD>
+      <FORM name=3D"search" =
+action=3D"./search.php?sid=3D7a0b7b080111ce1501025c376526195c"=20
+      method=3D"get"><SPAN class=3D"gensmall">Search for:</SPAN> <INPUT =
+name=3D"keywords" class=3D"post" type=3D"text" size=3D"20">=20
+<INPUT class=3D"btnlite" type=3D"submit" value=3D"Go"><INPUT name=3D"t" =
+type=3D"hidden" value=3D"6160">=20
+<INPUT name=3D"sf" type=3D"hidden" value=3D"msgonly"> <INPUT =
+name=3D"sid" type=3D"hidden" value=3D"7a0b7b080111ce1501025c376526195c"> =
+
+      </FORM></TD>
+    <TD align=3D"right">
+      <FORM name=3D"jumpbox" onsubmit=3D"if(document.jumpbox.f.value =
+=3D=3D -1){return false;}"=20
+      action=3D"./viewforum.php?sid=3D7a0b7b080111ce1501025c376526195c" =
+method=3D"post">
+      <TABLE border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD nowrap=3D"nowrap"><SPAN class=3D"gensmall">Jump=20
+            to:</SPAN>&nbsp;<SELECT name=3D"f" =
+onchange=3D"if(this.options[this.selectedIndex].value !=3D -1){ =
+document.forms['jumpbox'].submit() }"><OPTION=20
+              value=3D"-1">Select a forum</OPTION>		 <OPTION=20
+              value=3D"-1">------------------</OPTION>			 <OPTION =
+value=3D"24">NES /=20
+              Famicom</OPTION>					 <OPTION value=3D"2">&nbsp;=20
+              &nbsp;NESdev</OPTION>					 <OPTION value=3D"3">&nbsp;=20
+              &nbsp;NESemdev</OPTION>					 <OPTION value=3D"21">&nbsp; =
+&nbsp;NES=20
+              Graphics</OPTION>					 <OPTION value=3D"6">&nbsp; =
+&nbsp;NES=20
+              Music</OPTION>					 <OPTION value=3D"9">&nbsp; &nbsp;NES =
+Hardware=20
+              and Flash Equipment</OPTION>					 <OPTION =
+value=3D"22">&nbsp;=20
+              &nbsp;Homebrew Projects</OPTION>					 <OPTION =
+selected=3D"selected"=20
+              value=3D"10">&nbsp; &nbsp;Newbie Help Center</OPTION>					 =
+<OPTION=20
+              value=3D"11">&nbsp; &nbsp;FCdev</OPTION>					 <OPTION=20
+              value=3D"18">&nbsp; &nbsp;NESdev China</OPTION>					 =
+<OPTION value=3D"27">&nbsp;=20
+              &nbsp;NESdev Middle East</OPTION>					 <OPTION =
+value=3D"19">&nbsp;=20
+              &nbsp;NESdev International</OPTION>					 <OPTION=20
+              value=3D"25">Other</OPTION>					 <OPTION =
+value=3D"5">&nbsp;=20
+              &nbsp;General Stuff</OPTION>					 <OPTION =
+value=3D"4">&nbsp;=20
+              &nbsp;Membler Industries</OPTION>					 <OPTION =
+value=3D"12">&nbsp;=20
+              &nbsp;SNESdev</OPTION>					 <OPTION value=3D"20">&nbsp;=20
+              &nbsp;GBDev</OPTION>					 <OPTION value=3D"23">&nbsp; =
+&nbsp;Other=20
+              Retro Dev</OPTION>					 <OPTION value=3D"15">&nbsp; =
+&nbsp;Test=20
+              Forum</OPTION>					 <OPTION value=3D"26">Site =
+Issues</OPTION>	=09
+              			 <OPTION value=3D"13">&nbsp; &nbsp;phpBB =
+Issues</OPTION>	=09
+              			 <OPTION value=3D"14">&nbsp; &nbsp;Web Issues</OPTION>		=
+
+              			 <OPTION value=3D"16">&nbsp; &nbsp;nesdevWiki</OPTION>		=
+
+            		 </SELECT>&nbsp;<INPUT class=3D"btnlite" type=3D"submit" =
+value=3D"Go"></TD></TR></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE><=
+/DIV>
+<DIV id=3D"wrapfooter"><SPAN class=3D"copyright">Powered by <A =
+href=3D"http://www.phpbb.com/">phpBB</A>=C2=AE=20
+Forum Software =C2=A9 phpBB Group	 </SPAN> </DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/site_logo.gif
+
+R0lGODlhAAGAALMAAAAAAAx8ADSkAHzsSORENP//////////////////////////////////////
+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
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_faq.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExYIB5XiBS0AAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAADwSURB
+VCjPjZIxCsJAEEXFo3gLWysP4AEEW2srQRTBLlhYChZioZVtCiHYCCo2FmIRMVEjKSIESRGMjP7F
+GVybGHiEnfy3O2EnY1lWJt8ctd4cU2ghq8I9c01pDzLIQrAfyTNVQAZZCEcuTuYbypUblC1WFaV2
+n273SCRkNQHHFmpd6oxNFYZUMYaUJIlCE7jI1AdTOSWOY4UICHDRXG6lJbDa2RRFkUIELgAW0Ip7
+9SkMQ0ETuIgd0Q7EIAg0RPgucu/4eax93xdYsLHgj/uDQ5PZQr09zxPc80XuAWNhOKeLFvgFGXXT
+n1mqv9n/M0svJQvfPdGNj+cAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_search.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExYIDXU37DMAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAAEcSURB
+VCjPhZKxSsNQGIXzAr6Hr+ADOPkC7oJDR3GVoCI4tYPg5OASBB1ctB1cgqgd3Cw6SMEOxtJmKAYJ
+sTQc8/1ykxTBXjjce5Pz/Sd/7vXCMPRWdgO/0GCBfLxmbnUetWjgwQswmM5yJem3/ItbHmp588Dm
+s7ue0unMADx4DahV0OW7NEyl+3Gu9eNrdV4iMzPmgNXDcz1Nfo0n/byESI0nn38TAIh/+1IJou3T
+tgFZllUANIAbrjpJAMPRSEmSVAC0+yTXIOuN4MF6I2EOYMMfoUmapvrW1bOW1hrauXm1/TiOK4AK
+xALtB20TlSkARBJQCWCmAmLt1O1/2JkAkVh499y1OIqiyEzMddWhwtf0anep98894p0d7A8AcdqN
+0LSzogAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_register.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExYIDAIw3KUAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAAD1SURB
+VCjPYzhw4ACDZePSJiB+QAA3gdSCFU/ade4/IQBSA1IL0nD395+/OBV+/PTpf/uyrf9BakBqQRoe
+4FJ86vq9/4pR5WANIABSi1MDSDGPV9b/WZv2/f/z5w8Yo2iACYIwTDHI5J8/f8IxXANM0ct3H/6/
+ePv+v1Fa4/+guilgRV+/foVjuIZr9x+DTQQpLJq2HMx+/Pwl2MPIGK4BxNl27CxYIQhPWLXj/7t3
+71Dwq1evEBpggqAQAWkASaLjFy9ewDXcBXFAgqAQAdkE4iPjp0+f/n/05Ck8HkDJou/h46dwSWwY
+pAYc09C0VAPSTUxaAgDIKuYlayMccAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/prosilver/theme/images/icon_mini_login.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExYICXJaKCoAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAAEMSURB
+VCjPjZKxSsNAGMcz9z3c+gDtI4jP4FIn6RNEdDDQLkIR50KngItjFnEIDuoklG6Fg5rYQEPbQIoQ
+8OSrv8O7tijUgz+Xy/1+931w58Vx7DUvw+A7kz0JYA18c/8q+wYMLIL61F9uQ2W59KNHE77tgIFF
+mNiffv9ODo7P5ORqYFI7PJVuGDkJ1gmcCFSsPhyQ5As58q8lehmK1npXaLQ78jQa/+odGKmqqo2A
+Tfn5sjAQbVCRMVSp1FsXUpblRsCmwu3Ds4GQgWyrVNgRWFAaiRmBcAAzrVLdCSwIp9nTt6Usy0ys
+oGazXGwQaQGJtYWT96m7B55F7y2dus2/AmNu+uctnWP/5y2tAUVjzunsCtquAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topic_new.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAGEAAAAbCAYAAABsv+EEAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExUuKYisNZ8AAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAATqSURB
+VGje7Zq9axRRFMUXIdbptFWwTecfkV6wUjttrNTaSreJwoqQFLER0gjCWqQQYicIKURtYhIIRNRF
+dzUfG2IkEsb5Pd4Z7j7fzOxuNmJwCCcz7+vOm3PevffNztSSWvzvxJX7YymaKZZTdFIkFYbCskcd
+TmNcx8gfT9E4e3M2qV26V2GEOHNjFlEuFopAB5F/eWY+ebX6Kdnf/+VwcHBQYQj82NtLut2d5Nni
+UnLu1qPk9PVphGhERcADEODk1ZmK/CMUhMXNIrdCWBHWaFxtfc8EqDB6IMb523PyiIlMBMIQAtSb
+LwuVXF//kExNTSXzzxeSpaX31eoeAgixsbEpb3hgRfhGGCpzJQQQJicnM0iYKnyVCwCPXza7Lix5
+bxhzuWD82sO+vADCSTKhMBKj8o5yEeAPTyBRe2+o19y/tEAyLhosDwjbXr951+MR/4o37K68cDiM
+je3Fx8nu3IWRe0K73XaL2ouwXHP/0gIuoo4hGATJHEOSCUPWGyjn2fmb2L17ypF4KBupiDsLd0Z6
+P3hCIEKn5v6lBRTKGygvsHnBJmfqOSICnlFkC7ADI/wBYiO7Bc5tu+o54rrU04dz7OO5lOlLmXrZ
+cCs4FYFVDJEi1JVTQOxO52NWT3/q1N79vNLTZkWxNn5utwcSQM8MgQguKbtC2FmQF7RaLUe61ITs
+METRD+N2fAwQxkZAD4WQTZl6PJKHGsqQqnM97NBf+231ocw5dczPEYoI3hsceb5s2yAxE6ygDftR
+G6kYZfcaAu7gMipC3iBLtN0d4QkYU3jiXCGraBL0V1ISgRCvMhDptLHSRT5tWjASR57COXPSdUQW
+5yINAiyhmQf487y2mA15zqAikJS1oJlzrghcSFlcqxtQpp5z5QIJpAStPkUQaRxVp1UtEZgTR53j
+LRqnPtZj6GOvIRHcucKMb7MiWXKL2kIbFpazMsAP/CEC8+8RIWY49AKIBxCOIRmlr0QpE8GGoyIR
+sEe7Yr36inx5joRCpH5FIOaHRJMjaOMYthGaYjaUW/oVwOaDqCfEOivR4v4c7eq3YcmGKlxtEE+Q
+aBJBbYQZQpEt01e5ACF0IxIEskIRGJMR7UnLYrrf/WSCeWLDtpgNJwpeko4ZxAuUD5i7zQlud0QH
+gQHWC2yypoxAEkUiaHtKm7UVg3IC/VVHmetxbf3IJYhwcgdjlNAZhwgKmXb+SqLa7Yg0m1zdyjfJ
+2LZxLStCno2ye7WAG+UD+LMiNPXDne2c99MENxtuuTiX13ARxhcBGwjBkZuljjLbTs2BiUpkO5Z5
+KiRyLY6MpT68DskVOypry0md5imiv669/aNNddamtVF2nyGsFxgROtkTMzcSEqXO4QOZRLG7JK3G
+QSY0bLtt47wf4emDUGFfidCvnZiNQe7ZcupFaOo1pnNvTUSKCQwEOre5wQqjVXScoK0m93bU1+Ia
+CADIYf71Z12/ok6jiiVeiIlihZGy2jEdNxFY2Uc9b3EmnljEfnu61/M+gQq8wZIbEyWGQfv/b7AL
+VXnOvl2zb9YauAduYoWocHiEAvjngy1eI8Re9K8pP1gDFZHDEx8K4MPQlv3qIvbJyxNCk/biemoN
+jVYoh7iDfJ7ofQjaCj97yfvwixzxlNdv1fdCowEL24f8idKPvyIfgtX9l3hN8zVZhf4g3nK/vuPv
+N2NvI8DojcAnAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/en/button_topic_reply.gif
+
+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
+RU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/icon_post_target.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAYAAAAGuM1UAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExIDHhV03PoAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAABWSURB
+VCjPhc0xCsBACETRuf+JPIwX2E6wsJJJlUWTrBF+JY8BSZAEAD67fzVUUO+EPkFEHJcayMxXI4iI
+lqrOwN1pZrtfYGZca+1EZAaqShFpjeBUBRey/iBPBUJ9DQAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_offline.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAAAUCAYAAAAuoXvLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExUuNgWkOGoAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAAIkSURB
+VFjD7ZfLTgJBEEXVj2LBv6DxZ9i5YWuCGz/ABBMl7nCBLnwkzlKMEhIS2OArAcG0nI53UsxD4wy4
+YZzcTHVX2V11phqYDbdRXD9dBYICUAHofwBt7eyV56rP5dZcMCgvAGJic3vPXd933br/wQAWgiRA
+dRwf05mbTCZe4/FqNBqN3PDqysva0vPjk4+z9n+K2o8vA99JFpCbzj5DAWpVOt/ddSelktdTsxna
+d7VaeCcH2avMJUmvb++u3+/745YIaFkbvXS7YVfYeQtBUOgk60taj3itx9rWZzsxT850z2AwdJ1O
+Jw5omUdLhUt0DUXYuageWi1/P61WF2CRU1I83cdetgu1F6Cy5K3uCYIgDgjnMkRyKpSncXtw4Mfc
+BeGwUvGFEcP4ot32sYLCOlpDNurc3HgJBEXJ5vNK6zPOkjsPsdfrpQMiIK/UPbQpRTNHwkBRF6lw
+xZKU9cnGb+ftesgCIRbpM06xf5GOVyIgBeSVirZzAqQuUbHqIMVZX5pt17MdiTSvvf4qjheA6OgY
+IAXwNPNIR4ojxJgN9ZQZq1hs221RX5qNBMIeZ/nURVlyV/ckAlJAXrFB9KvbF9FohLAoCFsdpP+1
+vjQbCZBsPQCtJ1+W3IFDrjFACliG2EStjthQPj+eF4INQMbER31pNsJmLizoexyNy5I3uSYBqvPr
+UUHrKsHZPzqL/ZLmRdUVkNqCs/guVrzN//I2X1zp1xeoZyTUGP0MgAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/download/file.php?avatar=95.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAIAAAABc2X6AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAchJREFU
+eF7tW7utwkAQpDCKICSggBcSEFIKRRASUgABBbwCCCiCEzqhlbz7PLeS9XbZsS6yxsf8zjphe7Xi
+QQfoQHEHjqdf97CskxOGs9ettl1Iwd0BJhyu153Qz+GuDsnXwsjzUfVNeFFwD5wJ683/FCRNpUeT
+LLGeEZFfdQOj4GzrGUkMuQmlqTEFKxVlwooDaSotuZ/FYaUqMRYemQdpzeIYhCgFdwdGm7J4esgP
+lEvYMuVpHBIvIYi5oTEU3B1gwooRoauLkLPW6letYaS6FIzUJQOmRKUft6N7ZAhxwtGttl1IwRkc
+KJewDOVy2s6ODCHCHGfVNgA8WQYgBSsNzxDchONmdx0aKUVK0kNqG5iCszlQLmEZkNx4WOctTLag
+33wpuMdmbTlTplqu0nJHheyl06dKwT1Cay/NhDM4gDxSQXSk+cuWgp2PTpgwsg7+A4O8zoDwQh6s
+I/MsjqFg5f0NxHUmjLgUCTP6aUAk7i4uFDzzLYTL1UgXlUgY2WYimEjB/ckFEYNgKDiqA0h6CCaq
+vgmv+36vDglEMBQc1QEkPQQTVV/NSp/Xa/eQjlmThEvbrbZdSMFKWZhwOAdIiA7QgWUdeAEP/Jh5
+NHddfwAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/styles/subsilver2/imageset/en/icon_user_profile.gif
+
+iVBORw0KGgoAAAANSUhEUgAAAEgAAAAUCAYAAAAuoXvLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAd0SU1F
+B9wIExUuN3KjCPwAAAAGYktHRAD/AAAA/x4lk34AAAAJcEhZcwAACxMAAAsTAQCanBgAAAMbSURB
+VFjD7ZexaxRBFIePFIKtpSCksFUU4Yq0+h9YpDEIaQTtBLEUotiIBkyRFBbBFexiowYE0Urh1OoC
+xpDiREHusDEJ5IJHxvmG/cm7zc7uaYIHt7L82JmdN2/e++7N7F7N1eLXzxfnx7xOetVT0T5cNGfU
+ruhAq9U6vXx/svlj8YTbeTsdRPvV0kLbjy1UHpAH8Xj7zZG26950zn123H3fvbt1dMuPNSsNyFfI
+lAfRBIivIqomVBD99NmW32rjlQI0dvHuca/rXq9rU3eaHlB7d+mcQ2wttRHQvN0o6rtX4jXRB4gH
+hy7Nuw/rX12v13OdTidAAIbOHyuANRoNt93tBvtREgxgIUgClAgO2tjc5KzpqxorxoYJiFjvvVxx
+q1++Hbhvclp+/xFAiQXUZwQgzp3s1rKAcDIMQPqF6zeSAIk2sTBm238rcmcHwSQKyFYRkLJi++Hk
+X8MhJgtFvzbPDwIQ/sjLv6SKAcmQKgKS1akLV4JwQmCDVtHZ2WdBJIFo2zEqgueXHzwPfrnTP3bt
+YWhTOQg7/xJxZ67O/q6mvArirvXwAdhBAX1aW9sLiEGJAAFAMMAAlF73BDv9ZDWMcQ4JUpGwIVh8
+cW4osduPnoZxfJEwSTGOLUnRFxTWVcUASL5tNdk284mThFV1+C6LlbyjgEhEcAgYxyxCIqJMoDxH
+kzNzIQDNKxJJqzrUJ/G8MVtJ2lZAoS1A1lbbTG1EmxxYA//MIY+yOKOAZEDCOAIMIjgW0RuDxQSO
+59pqZVIVWEAkoLYNHlvg7xcQ89THP9VYFKPOH3ZGFJCqh6AFCREwC1hABAptHJfJbhuVPEEzJniy
+1bgSZB4xhe+zFJBsBSXbZg5+9Ukgf2Vxkk8uIGuAYxawkHSG6LAlYPqDAtI5Q3LM0/ZEwBEsRLXS
+xw57bLUOd0FAOruybe7M04Fuf4CYVD1RQNp/GAhAnggeYYc988qkKhnEVgLUn9jvR+Sh3HkZZQEl
+EJdBnhhnYmy8TDpX1C9aa5giR7Zi9kt6AmJlkKqgFA6qZ//N19N/sq7i2vtv/v8Vv34Bf4AdRO3N
+Ow0AAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/images/spacer.gif
+
+R0lGODlhAQABAPcAAAAAAAAAMwAAZgAAmQAAzAAA/zMAADMAMzMAZjMAmTMAzDMA/2YAAGYAM2YA
+ZmYAmWYAzGYA/5kAAJkAM5kAZpkAmZkAzJkA/8wAAMwAM8wAZswAmcwAzMwA//8AAP8AM/8AZv8A
+mf8AzP8A/wAzAAAzMwAzZgAzmQAzzAAz/zMzADMzMzMzZjMzmTMzzDMz/2YzAGYzM2YzZmYzmWYz
+zGYz/5kzAJkzM5kzZpkzmZkzzJkz/8wzAMwzM8wzZswzmcwzzMwz//8zAP8zM/8zZv8zmf8zzP8z
+/wBmAABmMwBmZgBmmQBmzABm/zNmADNmMzNmZjNmmTNmzDNm/2ZmAGZmM2ZmZmZmmWZmzGZm/5lm
+AJlmM5lmZplmmZlmzJlm/8xmAMxmM8xmZsxmmcxmzMxm//9mAP9mM/9mZv9mmf9mzP9m/wCZAACZ
+MwCZZgCZmQCZzACZ/zOZADOZMzOZZjOZmTOZzDOZ/2aZAGaZM2aZZmaZmWaZzGaZ/5mZAJmZM5mZ
+ZpmZmZmZzJmZ/8yZAMyZM8yZZsyZmcyZzMyZ//+ZAP+ZM/+ZZv+Zmf+ZzP+Z/wDMAADMMwDMZgDM
+mQDMzADM/zPMADPMMzPMZjPMmTPMzDPM/2bMAGbMM2bMZmbMmWbMzGbM/5nMAJnMM5nMZpnMmZnM
+zJnM/8zMAMzMM8zMZszMmczMzMzM///MAP/MM//MZv/Mmf/MzP/M/wD/AAD/MwD/ZgD/mQD/zAD/
+/zP/ADP/MzP/ZjP/mTP/zDP//2b/AGb/M2b/Zmb/mWb/zGb//5n/AJn/M5n/Zpn/mZn/zJn//8z/
+AMz/M8z/Zsz/mcz/zMz/////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAHUALAAAAAABAAEA
+AAgEAOsEBAA7
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/download/file.php?avatar=3559.png
+
+iVBORw0KGgoAAAANSUhEUgAAAGQAAABACAMAAADbASJGAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AAB6JQAAgIMAAPn/AACA6AAAdTAAAOpgAAA6lwAAF2+XqZnUAAADAFBMVEUAAAD///+wEDCYIHjw
+YP9gEKCQQPAoALhAQP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAADNNrRwAAAACnRSTlP///////////8AsswszwAACFFJREFUeJxsiFsSABAM
+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
+ZAczQIABAD+vryNU0El2AAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/download/file.php?avatar=3735.jpg
+
+/9j/4AAQSkZJRgABAQEBKwErAAD/4QBoRXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUA
+AAABAAAARgEoAAMAAAABAAIAAAExAAIAAAASAAAATgAAAAAAAAErAAAAAQAAASsAAAABUGFpbnQu
+TkVUIHYzLjUuMTAA/9sAQwACAQECAQECAgICAgICAgMFAwMDAwMGBAQDBQcGBwcHBgcHCAkLCQgI
+CggHBwoNCgoLDAwMDAcJDg8NDA4LDAwM/9sAQwECAgIDAwMGAwMGDAgHCAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAXgBkAwEiAAIRAQMRAf/E
+AB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAE
+EQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZH
+SElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1
+tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEB
+AQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXET
+IjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFla
+Y2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A/AOiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAorV8C+CtU+JPjXSPD2iWc2oaxrt5FYWNrEpZ7ieVwiIAOpLMBX6e
+/GH/AIJEfsofsn+JL34c/FT4o/HW0+I3h/w+LzXvEGheEI9Q8HabqZg802nmxq87iNiqsQNvBy6H
+IXrw2DqVk3HZev6epE6ijuflbRXSX3wf8V2ElqH8M+IlTUJvs9mzaZMn2t+cKmV+ZsAnaMng1V1v
+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
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/download/file.php?avatar=3.png
+
+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
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/download/file.php?avatar=4.jpg
+
+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
+212FwnI/HPT/AGppUqVO4/QEtf6iv//Z
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/images/smilies/icon_smile.gif
+
+R0lGODlhDwAPALMOAP/qAEVFRQAAAP/OAP/JAP+0AP6dAP/+k//9E///////xzMzM///6//lAAAA
+AAAAACH5BAEAAA4ALAAAAAAPAA8AAARb0EkZap3YVabOGRcWcAgCnIMRTEEnCCfwpqt2mHEOagoO
+nz+CKnADxoKFyiHHBBCSAdOiCVg8KwPZa7sVrgJZQWI8FhB2msGgwTXTWGqCXP4WBQr4wjDDstQm
+EQA7
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/images/smilies/icon_biggrin.gif
+
+R0lGODlhDwAPALMNAEVFRf/qAAAAAP/////OAP/JAP+0AP6dAP/+k//9E///x///6//lAAAAAAAA
+AAAAACH5BAEAAA0ALAAAAAAPAA8AAARZsEkJap241aUQIhcGcEkSnMQBTEBnnnC6aogpwHcAasqb
+B7mCCoD4wXCGSlHAbDqTANtgSh0IClACsEq9qjRaAfe6AxMYTvKXQiAU3m9ZpmKoG4YZlmU2iQAA
+Ow==
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://forums.nesdev.com/images/smilies/icon_confused.gif
+
+R0lGODlhDwAPALMMAP/qAEVFRQAAAP/OAP/JAP6dAP+0AP/+k//9E///x//lAP//6wAAAAAAAAAA
+AAAAACH5BAEAAAwALAAAAAAPAA8AAARYkEkZap2Y1ZXOGRcWcAgCnEMRTEEnCCfwpqt2mHEOagkO
+nz+CKnADxoKGyiHHBBCSAVzz9KwMpieFcBW4/mQvwk4zGCheMC2NVSa43WtRwEA3DDMsS20SAQA7
+
+------=_NextPart_000_0000_01CF1F80.75D32300
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://forums.nesdev.com/style.php?id=1&lang=en&sid=7a0b7b080111ce1501025c376526195c
+
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	font-size: 100%;
+}
+body {
+	margin: 0px; color: rgb(208, 208, 208); font-family: "Lucida Grande", =
+Verdana, Helvetica, Arial, sans-serif; font-size: 62.5%; =
+background-color: rgb(0, 0, 0);
+}
+#wrapheader {
+	padding: 0px; height: auto !important;
+}
+#wrapcentre {
+	margin: 15px 25px 0px;
+}
+#wrapfooter {
+	text-align: center; clear: both;
+}
+#wrapnav {
+	margin: 0px; border: 1px solid rgb(169, 184, 194); width: 100%; =
+background-color: rgb(51, 51, 85);
+}
+#logodesc {
+	background-position: bottom; padding: 0px 25px 15px; background-repeat: =
+repeat-x;
+}
+#menubar {
+	margin: 0px 25px;
+}
+#datebar {
+	margin: 10px 25px 0px;
+}
+#findbar {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; width: 100%;
+}
+.forumrules {
+	padding: 4px; border: 1px solid rgb(187, 152, 96); font-family: "Lucida =
+Grande", Verdana, Arial, Helvetica, sans-serif; font-size: 1.1em; =
+font-weight: normal; background-color: rgb(249, 204, 121);
+}
+.forumrules h3 {
+	color: red;
+}
+#pageheader {
+=09
+}
+#pagecontent {
+=09
+}
+#pagefooter {
+=09
+}
+#poll {
+=09
+}
+#postrow {
+=09
+}
+#postdata {
+=09
+}
+h1 {
+	color: rgb(208, 208, 208); font-family: "Lucida Grande", "Trebuchet =
+MS", Verdana, sans-serif; font-size: 1.8em; font-weight: bold; =
+text-decoration: none;
+}
+h2 {
+	line-height: 120%; font-family: Arial, Helvetica, sans-serif; =
+font-size: 1.5em; font-weight: bold; text-decoration: none;
+}
+h3 {
+	line-height: 120%; font-family: Arial, Helvetica, sans-serif; =
+font-size: 1.3em; font-weight: bold;
+}
+h4 {
+	margin: 0px; font-size: 1.1em; font-weight: bold;
+}
+p {
+	font-size: 1.1em;
+}
+p.moderators {
+	margin: 0px; color: rgb(208, 208, 208); font-weight: bold; float: left;
+}
+.rtl p.moderators {
+	float: right;
+}
+p.linkmcp {
+	margin: 0px; float: right; white-space: nowrap;
+}
+.rtl p.linkmcp {
+	float: left;
+}
+p.breadcrumbs {
+	margin: 0px; color: rgb(208, 208, 208); font-size: 1em; font-weight: =
+bold; float: left; white-space: normal;
+}
+.rtl p.breadcrumbs {
+	float: right;
+}
+p.datetime {
+	margin: 0px; font-size: 1em; float: right; white-space: nowrap;
+}
+.rtl p.datetime {
+	float: left;
+}
+p.searchbar {
+	padding: 2px 0px; white-space: nowrap;
+}
+p.searchbarreg {
+	margin: 0px; float: right; white-space: nowrap;
+}
+.rtl p.searchbarreg {
+	float: left;
+}
+p.forumdesc {
+	padding-bottom: 4px;
+}
+p.topicauthor {
+	margin: 1px 0px;
+}
+p.topicdetails {
+	margin: 1px 0px;
+}
+.postreported {
+	margin: 1px 0px; color: red; font-weight: bold;
+}
+.postreported a:link {
+	margin: 1px 0px; color: red; font-weight: bold;
+}
+.postreported a:visited {
+	margin: 1px 0px; color: red; font-weight: bold;
+}
+.postreported a:hover {
+	margin: 1px 0px; color: red; font-weight: bold;
+}
+.postreported a:active {
+	margin: 1px 0px; color: red; font-weight: bold;
+}
+.postapprove {
+	color: green; font-weight: bold;
+}
+.postapprove a:link {
+	color: green; font-weight: bold;
+}
+.postapprove a:visited {
+	color: green; font-weight: bold;
+}
+.postapprove a:hover {
+	color: green; font-weight: bold;
+}
+.postapprove a:active {
+	color: green; font-weight: bold;
+}
+.postapprove img {
+	padding-top: 5px; vertical-align: bottom;
+}
+.postreported img {
+	padding-top: 5px; vertical-align: bottom;
+}
+.postauthor {
+	color: rgb(208, 208, 208);
+}
+.postdetails {
+	color: rgb(208, 208, 208);
+}
+.postbody {
+	line-height: 1.4em; font-family: "Lucida Grande", "Trebuchet MS", =
+Helvetica, Arial, sans-serif; font-size: 1.3em;
+}
+.postbody li {
+	margin: 0px 0px 0px 1.5em;
+}
+ol {
+	margin: 0px 0px 0px 1.5em;
+}
+ul {
+	margin: 0px 0px 0px 1.5em;
+}
+.rtl .postbody li {
+	margin: 0px 1.5em 0px 0px;
+}
+.rtl ol {
+	margin: 0px 1.5em 0px 0px;
+}
+.rtl ul {
+	margin: 0px 1.5em 0px 0px;
+}
+.posthilit {
+	color: rgb(255, 238, 221); background-color: rgb(170, 136, 0);
+}
+.nav {
+	margin: 0px; color: rgb(208, 208, 208); font-weight: bold;
+}
+.pagination {
+	padding: 4px; color: rgb(208, 208, 208); font-size: 1em; font-weight: =
+bold;
+}
+.cattitle {
+=09
+}
+.gen {
+	margin: 1px; font-size: 1.2em;
+}
+.genmed {
+	margin: 1px; font-size: 1.1em;
+}
+.gensmall {
+	margin: 1px; font-size: 1em;
+}
+.copyright {
+	color: rgb(68, 68, 68); font-family: "Lucida Grande", Verdana, Arial, =
+Helvetica, sans-serif; font-weight: normal;
+}
+.titles {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: =
+1.3em; font-weight: bold; text-decoration: none;
+}
+.error {
+	color: red;
+}
+th {
+	padding: 7px 5px; color: rgb(0, 0, 0); font-size: 1.1em; font-weight: =
+bold; white-space: nowrap; background-color: rgb(255, 192, 0);
+}
+td {
+	padding: 2px;
+}
+td.profile {
+	padding: 4px;
+}
+.tablebg {
+	background-color: rgb(0, 0, 0);
+}
+.catdiv {
+	background: repeat-y left top black; margin: 0px; padding: 0px; border: =
+0px currentColor; border-image: none; height: 28px;
+}
+.rtl .catdiv {
+	background: repeat-y right top black;
+}
+.cat {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none; height: 28px; text-indent: 4px; background-color: rgb(85, 85, =
+119);
+}
+.row1 {
+	padding: 4px; background-color: rgb(51, 51, 85);
+}
+.row2 {
+	padding: 4px; background-color: rgb(34, 34, 68);
+}
+.row3 {
+	padding: 4px; background-color: rgb(85, 85, 119);
+}
+.spacer {
+	background-color: rgb(85, 85, 119);
+}
+hr {
+	border-width: 0px; height: 1px; color: rgb(85, 85, 119); =
+background-color: rgb(85, 85, 119);
+}
+.legend {
+	margin: 0px auto; text-align: center;
+}
+.rtl a {
+	unicode-bidi: embed; direction: rtl;
+}
+a:link {
+	color: rgb(255, 192, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(255, 192, 0); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+a:active {
+	color: rgb(255, 192, 0); text-decoration: none;
+}
+a.forumlink {
+	color: rgb(255, 192, 0); font-family: "Lucida Grande", Helvetica, =
+Arial, sans-serif; font-size: 1.2em; font-weight: bold;
+}
+a.topictitle {
+	margin: 1px 0px; font-family: "Lucida Grande", Helvetica, Arial, =
+sans-serif; font-size: 1.2em; font-weight: bold;
+}
+a.topictitle:visited {
+	color: rgb(84, 147, 180); text-decoration: none;
+}
+th a {
+	color: rgb(255, 163, 79) !important; text-decoration: none;
+}
+th a:visited {
+	color: rgb(255, 163, 79) !important; text-decoration: none;
+}
+th a:hover {
+	text-decoration: underline;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: =
+none;
+}
+input {
+	padding: 1px; border: 1px solid rgb(169, 184, 194); border-image: none; =
+color: rgb(208, 208, 208); font-family: "Lucida Grande", Verdana, =
+Helvetica, sans-serif; font-size: 1.1em; font-weight: normal; =
+background-color: rgb(34, 34, 68);
+}
+textarea {
+	padding: 2px; border: 1px solid rgb(169, 184, 194); border-image: none; =
+color: rgb(208, 208, 208); line-height: 1.4em; font-family: "Lucida =
+Grande", Verdana, Helvetica, Arial, sans-serif; font-size: 1.3em; =
+font-weight: normal; background-color: rgb(34, 34, 68);
+}
+select {
+	padding: 1px; border: 1px solid rgb(169, 184, 194); border-image: none; =
+color: rgb(208, 208, 208); font-family: "Lucida Grande", Verdana, =
+Helvetica, sans-serif; font-size: 1.1em; font-weight: normal; =
+background-color: rgb(34, 34, 68);
+}
+option {
+	padding: 0px 1em 0px 0px;
+}
+option.disabled-option {
+	color: graytext;
+}
+.rtl option {
+	padding: 0px 0px 0px 1em;
+}
+input.radio {
+	border: currentColor; border-image: none; background-color: =
+transparent;
+}
+.post {
+	border-width: 1px; border-style: solid; background-color: rgb(34, 34, =
+68);
+}
+.btnbbcode {
+	border: 1px solid rgb(102, 102, 102); border-image: none; color: rgb(0, =
+0, 0); font-family: "Lucida Grande", Verdana, Helvetica, sans-serif; =
+font-size: 1.1em; font-weight: normal; background-color: rgb(239, 239, =
+239);
+}
+.btnmain {
+	padding: 1px 5px; border: 1px solid rgb(169, 184, 194); border-image: =
+none; font-size: 1.1em; font-weight: bold; cursor: pointer; =
+background-color: rgb(51, 51, 85);
+}
+.btnlite {
+	padding: 1px 5px; border: 1px solid rgb(169, 184, 194); border-image: =
+none; font-size: 1.1em; font-weight: normal; cursor: pointer; =
+background-color: rgb(51, 51, 85);
+}
+.btnfile {
+	padding: 1px 5px; border: 1px solid rgb(169, 184, 194); border-image: =
+none; font-size: 1.1em; font-weight: normal; background-color: rgb(51, =
+51, 85);
+}
+.helpline {
+	background-color: rgb(34, 34, 68);
+}
+.quotetitle {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(169, =
+184, 194); margin: 10px 5px 0px; padding: 4px; color: rgb(208, 208, =
+208); font-size: 0.85em; font-weight: bold; background-color: rgb(34, =
+34, 68);
+}
+.attachtitle {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(169, =
+184, 194); margin: 10px 5px 0px; padding: 4px; color: rgb(208, 208, =
+208); font-size: 0.85em; font-weight: bold; background-color: rgb(34, =
+34, 68);
+}
+.quotetitle .quotetitle {
+	font-size: 1em;
+}
+.quotecontent {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(169, =
+184, 194); margin: 0px 5px 10px; padding: 5px; color: rgb(99, 116, 143); =
+line-height: 1.4em; font-family: "Lucida Grande", "Trebuchet MS", =
+Helvetica, Arial, sans-serif; font-size: 1em; font-weight: normal; =
+background-color: rgb(34, 34, 68);
+}
+.attachcontent {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(169, =
+184, 194); margin: 0px 5px 10px; padding: 5px; color: rgb(99, 116, 143); =
+line-height: 1.4em; font-family: "Lucida Grande", "Trebuchet MS", =
+Helvetica, Arial, sans-serif; font-size: 1em; font-weight: normal; =
+background-color: rgb(34, 34, 68);
+}
+.attachcontent {
+	font-size: 0.85em;
+}
+.codetitle {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(169, =
+184, 194); margin: 10px 5px 0px; padding: 2px 4px; color: rgb(208, 208, =
+208); font-family: "Lucida Grande", Verdana, Helvetica, Arial, =
+sans-serif; font-size: 0.8em; background-color: rgb(34, 34, 68);
+}
+.codecontent {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(217, =
+232, 242); margin: 0px 5px 10px; padding: 5px; color: rgb(0, 255, 0); =
+font-family: Monaco, "Droid Sans Mono", "DejaVu Sans Mono", "Lucida =
+Console", "Courier New", monospace; font-size: 0.85em; font-weight: =
+normal; direction: ltr; background-color: rgb(34, 34, 68);
+}
+.syntaxbg {
+	color: rgb(0, 0, 0);
+}
+.syntaxcomment {
+	color: rgb(255, 128, 0);
+}
+.syntaxdefault {
+	color: rgb(0, 0, 187);
+}
+.syntaxhtml {
+	color: rgb(0, 0, 0);
+}
+.syntaxkeyword {
+	color: rgb(0, 119, 0);
+}
+.syntaxstring {
+	color: rgb(221, 0, 0);
+}
+.pm_marked_colour {
+	background-color: rgb(0, 0, 0);
+}
+.pm_replied_colour {
+	background-color: rgb(34, 34, 68);
+}
+.pm_friend_colour {
+	background-color: rgb(0, 119, 0);
+}
+.pm_foe_colour {
+	background-color: rgb(221, 0, 0);
+}
+img {
+	border: currentColor; border-image: none;
+}
+.sep {
+	color: black; background-color: rgb(255, 163, 79);
+}
+table.colortable td {
+	padding: 0px;
+}
+pre {
+	font-family: Monaco, "Droid Sans Mono", "DejaVu Sans Mono", "Lucida =
+Console", "Courier New", monospace; font-size: 1.1em;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.username-coloured {
+	font-weight: bold;
+}
+
+------=_NextPart_000_0000_01CF1F80.75D32300--

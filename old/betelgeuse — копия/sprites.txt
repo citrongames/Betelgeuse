@@ -1,0 +1,9 @@
+00 - player
+01 - tripod
+02 - tank
+03 - hurt
+04 - gun
+05 - coin big
+06 - explosion
+07 - coin small
+08 - player bullet
