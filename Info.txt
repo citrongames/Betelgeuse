@@ -1,0 +1,24 @@
+read fff1 - game loop start
+read fff2 - game loop end
+
+2273 CPU cycles - vblanks time.
+27425 CPU cycles - frame time.
+
+14000 - 8 sprites update
+
+5-6 max bullets.
+6 max enemies.
+
+Sprites index:
+00 - player
+01 - tripod
+02 - tank
+03 - hurt
+04 - gun
+05 - coin big
+06 - explosion
+07 - coin small
+08 - player bullet
+09 - bullet ghost
+0A - enemy bullet
+
